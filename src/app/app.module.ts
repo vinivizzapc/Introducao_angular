@@ -4,9 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { OlaAngularComponent } from './ola-angular/ola-Angular.component';
+import { OlaAngularCliComponent } from './ola-angular-cli/ola-angular-cli.component'
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OlaAngularComponent,
+    OlaAngularCliComponent
   ],
   imports: [
     BrowserModule,
